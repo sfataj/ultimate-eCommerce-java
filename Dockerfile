@@ -5,7 +5,7 @@ FROM openjdk:8
 EXPOSE 8080
 
 # Add the WAR file to the container
-ADD target/sampleapp.war /sampleapp.war
+ADD target/MyECommerce-1.0.0.war /MyECommerce-1.0.0.war
 
 # Define the entry point to run the WAR file
-ENTRYPOINT ["java", "-jar", "/sampleapp.war"]
+ENTRYPOINT ["java", "-jar", "/MyECommerce-1.0.0.war"]
