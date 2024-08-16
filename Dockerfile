@@ -1,5 +1,5 @@
 # Use OpenJDK 8 as the base image
-FROM openjdk:8
+FROM tomcat:9-jdk8
 
 # Expose port 8080 for the application
 EXPOSE 8080
